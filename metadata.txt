@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Beginning
+# with version 1.8 this is the preferred way to supply information about a
+# plugin. The current method of embedding metadata in __init__.py will
+# be supported until version 2.0
+
+# This file should be included when you package your plugin.
+
+# Mandatory items:
+
+
+[general]
+name=Load Postgis Raster to QGIS
+qgisMinimumVersion=1.0
+description=Allows connecting to database and choose Postgis Raster tables.
+version=Version 0.5.4
+
+# end of mandatory metadata
+
+# Optional items:
+
+# Uncomment the following line and add your changelog entries:
+changelog=Loader was enabled again with some feature limitations.
+
+# tags are comma separated with spaces allowed
+tags=
+
+homepage=mapeandoobrasil.blogspot.com
+tracker=http://hub.qgis.org/projects/wktraster/issues
+repository=https://code.google.com/p/wktrasterplugin/
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version
+deprecated=False
+
+# Author contact information
+author=Mauricio de Paulo
+email=mauricio.dev@gmail.com
